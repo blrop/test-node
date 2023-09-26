@@ -1,3 +1,5 @@
+const EventEmitter = require('./EventEmitter');
+
 const myEmitter = new EventEmitter();
 
 function c1() {

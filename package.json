@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start2": "nodemon module2/process.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start1": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start2": "nodemon module2/process.js",
+    "start3": "nodemon module3/EventEmitterTest.js"
   },
   "repository": {
     "type": "git",
