@@ -8,7 +8,8 @@
     "module1": "nodemon index.js",
     "module2": "nodemon module2/process.js",
     "module3-1": "nodemon module3/EventEmitterTest.js",
-    "module3-2": "nodemon module3/WithTimeTest.js"
+    "module3-2": "nodemon module3/WithTimeTest.js",
+    "module3-3": "nodemon module3/FileReader.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/blrop/test-node#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
